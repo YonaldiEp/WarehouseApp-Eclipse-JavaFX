@@ -127,8 +127,8 @@ Sebelum menjalankan aplikasi, pastikan Anda telah menginstal perangkat lunak ber
 
 1.  **Login**:
     * Gunakan akun default yang telah dibuat:
-        * **Username**: `superadmin`
-        * **Password**: `superadmin`
+        * **Username**: `admin`
+        * **Password**: `admin123`
 2.  **Navigasi Utama**:
     * Setelah login, Anda akan masuk ke halaman utama.
     * Pilih gudang yang ingin Anda kelola melalui *dropdown* di bagian atas.
