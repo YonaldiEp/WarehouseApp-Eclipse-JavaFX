@@ -1,0 +1,88 @@
+/* Login Form */
+.label {
+    -fx-font-size: 14px;
+}
+
+.text-field, .password-field {
+    -fx-background-color: #f5f5f5;
+    -fx-border-color: #ccc;
+    -fx-border-radius: 6;
+    -fx-padding: 8;
+    -fx-pref-width: 200;
+}
+
+.button {
+    -fx-background-color: #388E3C;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-background-radius: 8;
+    -fx-cursor: hand;
+    -fx-padding: 10 16;
+}
+
+.button:hover {
+    -fx-background-color: #2E7D32;
+}
+
+.label:filled {
+    -fx-font-size: 13px;
+    -fx-text-fill: red;
+}
+
+/* style.css */
+.table-view {
+    -fx-font-size: 14px;
+}
+
+.button {
+    -fx-background-color: #1976D2;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-cursor: hand;
+    -fx-padding: 8 12;
+    -fx-background-radius: 8;
+}
+
+.button:hover {
+    -fx-background-color: #0D47A1;
+}
+
+.text-field {
+    -fx-background-color: #f0f0f0;
+    -fx-border-color: #bbb;
+    -fx-border-radius: 6;
+    -fx-padding: 6;
+}
+
+/* Feedback Labels */
+.feedback-success {
+    -fx-text-fill: green;
+    -fx-font-weight: bold;
+    -fx-padding: 5px;
+}
+
+.feedback-error {
+    -fx-text-fill: red;
+    -fx-font-weight: bold;
+    -fx-padding: 5px;
+}
+
+/* Row Notification Styles */
+.low-stock-row .table-cell {
+    -fx-background-color: #FFF3E0; /* Light Orange */
+}
+
+.expiring-soon-row .table-cell {
+    -fx-background-color: #FFEBEE; /* Light Pink */
+}
+
+.expired-row .table-cell {
+    -fx-background-color: #FFCDD2; /* Stronger Red */
+    -fx-font-weight: bold;
+}
+
+/* Override selection color to keep notification visible */
+.table-row-cell:selected .table-cell {
+    -fx-background-color: #0277BD;
+    -fx-text-fill: white;
+}
